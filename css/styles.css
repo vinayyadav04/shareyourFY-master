@@ -1,0 +1,42 @@
+html,body {
+    overflow-x: hidden;
+}
+
+
+.jumbotron {
+    background-color: black;
+}
+
+.sep {
+    margin: 0px auto;
+    padding: 20px 0px;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+}
+
+.footer {
+    background-color: black;
+    color: floralwhite;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.map-container-2 {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container-2 iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media only screen and (min-width: 600px) {
+    .left-pad {
+      padding-left: 100px;
+    }
+}
